@@ -59,7 +59,7 @@
   },
   "dependencies": {
     "puppeteer": "^24.39.1",
-    "puppeteer-core": "^24.39.1",
+    "puppeteer-core": "^25.16.0",
     "puppeteer-extra": "^3.3.6",
     "puppeteer-extra-plugin-stealth": "^2.11.2"
   },
