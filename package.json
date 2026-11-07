@@ -22,8 +22,9 @@
     "dev": "tsx ./src/index.ts",
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "eslint \"src/**/*.ts\" --fix",
-    "test": "vitest",
-    "test:cov": "vitest run --coverage"
+    "test": "vitest run",
+    "test:cov": "vitest run --coverage",
+    "test:watch": "vitest"
   },
   "publishConfig": {
     "access": "public"
@@ -43,7 +44,8 @@
     "eslint-plugin-unused-imports": "^4.4.1",
     "prettier": "^3.9.10",
     "tsx": "^4.23.15",
-    "typescript": "^7.0.2",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.72.1",
     "vitest": "^5.1.0"
   }
 }
