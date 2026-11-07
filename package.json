@@ -24,6 +24,7 @@
     "lint": "eslint \"src/**/*.ts\" --fix",
     "test": "vitest run",
     "test:cov": "vitest run --coverage",
+    "test:practical": "vitest run --config vitest.practical.config.mts",
     "test:watch": "vitest"
   },
   "publishConfig": {
@@ -35,6 +36,7 @@
   "author": "Marcuth",
   "license": "MIT",
   "devDependencies": {
+    "@afilimax/core": "^0.5.0",
     "@ianvs/prettier-plugin-sort-imports": "^4.7.1",
     "@types/node": "^26.6.6",
     "@vitest/coverage-v8": "^5.1.0",
@@ -47,5 +49,14 @@
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.72.1",
     "vitest": "^5.1.0"
+  },
+  "dependencies": {
+    "puppeteer": "^24.39.1",
+    "puppeteer-core": "^24.39.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "peerDependencies": {
+    "@afilimax/core": ">=0.5.0"
   }
 }
