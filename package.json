@@ -1,6 +1,6 @@
 {
   "name": "@afilimax/shein-provider",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Provedor de links de afiliado da SHEIN para o ecossistema Afilimax. Converte URLs de produtos da SHEIN em links de afiliado (onelink) automatizando a página de conversão do programa de afiliados, usando os cookies de uma sessão logada.",
   "type": "commonjs",
   "repository": {
