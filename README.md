@@ -130,6 +130,7 @@ npm run build
 ---
 
 Feito com ❤️ por **Afilimax**.
+
 ---
 
 ## Automatize sua operação de afiliados
